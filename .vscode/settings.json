@@ -1,0 +1,10 @@
+{
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": "\\.scss$",
+                "cmd": "sassc ${file} ${file}.css"
+            }
+        ]
+    }
+}
