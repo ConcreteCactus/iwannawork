@@ -1,5 +1,5 @@
-:root {
-  font-size: 1px; }
+html {
+  scroll-behavior: smooth; }
 
 body {
   font-family: "Poppins", sans-serif;
