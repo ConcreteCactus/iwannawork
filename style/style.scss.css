@@ -12,13 +12,13 @@ body {
 button {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 16px; }
+  font-size: 16rem; }
 
 a {
   color: black;
   text-decoration: none;
   font-weight: 500;
-  font-size: 16px; }
+  font-size: 16rem; }
 
 h1, h2, h3, p {
   margin: 0; }
@@ -65,16 +65,16 @@ h1, h2, h3, p {
   padding: 147px 0 200px 100px;
   color: white; }
   .hero .left-side h1 {
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 60rem;
+    line-height: 70rem;
     font-weight: 500;
     font-family: "Poppins", sans-serif; }
   .hero .left-side p {
-    font-size: 24px;
-    line-height: 40px;
+    font-size: 24rem;
+    line-height: 40rem;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
-    margin: 30px 0 40px 0; }
+    margin: 30rem 0 40rem 0; }
   .hero .hero-side-picture {
     position: absolute;
     bottom: -28.31px;
@@ -110,14 +110,14 @@ h1, h2, h3, p {
   border-radius: 20px;
   position: relative; }
   .box-icon-text-button h3 {
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 24rem;
+    line-height: 36rem;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
-    margin-right: 80px; }
+    margin-right: 80rem; }
   .box-icon-text-button p {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 18rem;
+    line-height: 24rem;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
     margin: 17px 0 20px 0;
@@ -200,8 +200,8 @@ h1, h2, h3, p {
   border: solid 1px #E4E4E4;
   padding: 37px 40px 36px 44px; }
   .contact-group h3 {
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 24rem;
+    line-height: 30rem;
     font-weight: 600;
     font-family: "Poppins", sans-serif; }
   .contact-group .contact-form {
@@ -216,8 +216,8 @@ h1, h2, h3, p {
       justify-self: left;
       align-self: end; }
       .contact-group .contact-form label p, .contact-group .contact-form label a {
-        font-size: 11px;
-        line-height: 16.5px;
+        font-size: 11rem;
+        line-height: 16.5rem;
         font-weight: 600;
         font-family: "Poppins", sans-serif; }
       .contact-group .contact-form label p {
@@ -226,8 +226,8 @@ h1, h2, h3, p {
         padding: 15px 20px 14px 20px;
         border: solid 1px #E4E4E4;
         border-radius: 10px;
-        font-size: 14px;
-        line-height: 21px;
+        font-size: 14rem;
+        line-height: 21rem;
         font-weight: 500;
         font-family: "Poppins", sans-serif;
         font-family: "Poppins", sans-serif; }
@@ -240,8 +240,8 @@ h1, h2, h3, p {
       align-items: center;
       justify-content: left; }
       .contact-group .contact-form .gtc-label p, .contact-group .contact-form .gtc-label a {
-        font-size: 14px;
-        line-height: 21px;
+        font-size: 14rem;
+        line-height: 21rem;
         font-weight: 500;
         font-family: "Poppins", sans-serif;
         margin: 0; }
@@ -255,8 +255,8 @@ h1, h2, h3, p {
     .contact-group .contact-form .submit-button {
       grid-column: 2 / span 1;
       height: 50px;
-      font-size: 16px;
-      line-height: 24px;
+      font-size: 16rem;
+      line-height: 24rem;
       font-weight: 500;
       font-family: "Poppins", sans-serif; }
     .contact-group .contact-form .rightarrow {
@@ -264,7 +264,7 @@ h1, h2, h3, p {
   .contact-group .contact-addresses {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 25px;
+    gap: 25px;
     margin-top: 35px; }
     .contact-group .contact-addresses .contact-address-group {
       display: grid;
@@ -273,8 +273,8 @@ h1, h2, h3, p {
       column-gap: 20px;
       row-gap: 5px; }
       .contact-group .contact-addresses .contact-address-group p {
-        font-size: 12px;
-        line-height: 18px;
+        font-size: 12rem;
+        line-height: 18rem;
         font-weight: 500;
         font-family: "Poppins", sans-serif;
         color: black;
@@ -282,8 +282,8 @@ h1, h2, h3, p {
         align-self: end;
         margin: 0; }
       .contact-group .contact-addresses .contact-address-group .address {
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 20rem;
+        line-height: 30rem;
         font-weight: 600;
         font-family: "Poppins", sans-serif;
         color: black;
@@ -295,23 +295,23 @@ h1, h2, h3, p {
 .large-section {
   position: relative; }
   .large-section h2 {
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 50rem;
+    line-height: 60rem;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
-    margin-bottom: 20px; }
+    margin-bottom: 20rem; }
   .large-section p {
-    font-size: 20px;
-    line-height: 36px;
+    font-size: 20rem;
+    line-height: 36rem;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
     margin: 0 0 30px 0; }
   .large-section .emphasis {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 20rem;
+    line-height: 30rem;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
-    margin-bottom: 10px; }
+    margin-bottom: 10rem; }
 
 .styled-checkmark-group {
   border: solid 1px #E4E4E4;
@@ -362,8 +362,8 @@ h1, h2, h3, p {
 .tickmark-section {
   margin-bottom: 176px; }
   .tickmark-section p {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 20rem;
+    line-height: 30rem;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
     align-self: center;
@@ -417,14 +417,14 @@ h1, h2, h3, p {
   .collaborators-section h1, .collaborators-section h2, .collaborators-section h3, .collaborators-section p {
     width: 505px; }
   .collaborators-section h2 {
-    font-size: 40px;
-    line-height: 60px;
+    font-size: 40rem;
+    line-height: 60rem;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
     padding-bottom: 20px; }
   .collaborators-section p {
-    font-size: 20px;
-    line-height: 36px;
+    font-size: 20rem;
+    line-height: 36rem;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
     opacity: 0.6;
@@ -453,14 +453,14 @@ h1, h2, h3, p {
     color: white;
     margin-bottom: 30px; }
   .workforce-section p {
-    font-size: 24px;
-    line-height: 40px;
+    font-size: 24rem;
+    line-height: 40rem;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
     opacity: 0.6; }
   .workforce-section h2 {
-    font-size: 70px;
-    line-height: 80px;
+    font-size: 70rem;
+    line-height: 80rem;
     font-weight: 500;
     font-family: "Poppins", sans-serif; }
   .workforce-section .section-image {
@@ -494,15 +494,15 @@ h1, h2, h3, p {
   margin-bottom: 96px; }
   .signature-section p {
     width: 400px;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 16rem;
+    line-height: 24rem;
     font-weight: 400;
     font-family: "Poppins", sans-serif; }
   .signature-section .navbar {
     gap: 57px; }
     .signature-section .navbar a {
-      font-size: 14px;
-      line-height: 21px;
+      font-size: 14rem;
+      line-height: 21rem;
       font-weight: 500;
       font-family: "Poppins", sans-serif;
       opacity: 0.5; }
@@ -525,8 +525,8 @@ h1, h2, h3, p {
     margin: 28px 0 31px 0;
     gap: 2.2ch; }
     .footer ul a {
-      font-size: 14px;
-      line-height: 21px;
+      font-size: 14rem;
+      line-height: 21rem;
       font-weight: 400;
       font-family: "Poppins", sans-serif;
       opacity: 0.5; }
@@ -582,6 +582,20 @@ h1, h2, h3, p {
     left: unset;
     width: fit-content;
     margin: 50px auto 0 auto; }
+    .contact-group .contact-form {
+      grid-template-columns: auto;
+      grid-template-rows: repeat(5, auto); }
+      .contact-group .contact-form label, .contact-group .contact-form .button {
+        justify-self: stretch; }
+        .contact-group .contact-form label .input-text, .contact-group .contact-form .button .input-text {
+          width: calc(100% - 40px); }
+      .contact-group .contact-form .submit-button {
+        grid-column: unset; }
+    .contact-group .contact-addresses {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr; }
+      .contact-group .contact-addresses .contact-address-group {
+        justify-self: center; }
   .vanish-on-small {
     display: none; }
   .employee-section {
@@ -645,4 +659,11 @@ h1, h2, h3, p {
     left: 50%;
     transform: translateX(-50%); }
     .footer * {
-      justify-self: center; } }
+      justify-self: center; }
+  .box-icon-section {
+    flex-direction: column;
+    align-items: stretch; } }
+
+@media (min-resolution: 200dpi) {
+  html {
+    font-size: 1.4px; } }

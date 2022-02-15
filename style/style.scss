@@ -18,7 +18,7 @@ html {
     scroll-behavior: smooth;
     overflow-x: hidden;
 
-    font-size: 1pxoi;
+    font-size: 1px;
 }
 
 body {
@@ -32,14 +32,14 @@ body {
 button {
     font-family: $font-stack; 
     font-weight: 500;
-    font-size: 16px;
+    font-size: 16rem;
 }
 
 a {
     color: black;
     text-decoration: none;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 16rem;
 }
 
 h1, h2, h3, p{
@@ -131,12 +131,12 @@ h1, h2, h3, p{
     .left-side {
 
         h1 {
-            @include set-font(70px, 60px, 500);
+            @include set-font(70rem, 60rem, 500);
         }
         
         p {
-            @include set-font(40px, 24px, 400);
-            margin: 30px 0 40px 0;
+            @include set-font(40rem, 24rem, 400);
+            margin: 30rem 0 40rem 0;
         }
     }
     
@@ -183,12 +183,12 @@ h1, h2, h3, p{
     position: relative;
 
     h3 {
-        @include set-font(36px, 24px, 500);
-        margin-right: 80px;
+        @include set-font(36rem, 24rem, 500);
+        margin-right: 80rem;
     }
     
     p {
-        @include set-font(24px, 18px, 400);
+        @include set-font(24rem, 18rem, 400);
         margin: 17px 0 20px 0;
         color: #0000009A
     }
@@ -291,7 +291,7 @@ h1, h2, h3, p{
     padding: 37px 40px 36px 44px;
     
     h3 {
-        @include set-font(30px, 24px, 600);
+        @include set-font(30rem, 24rem, 600);
     }
     
     .contact-form {
@@ -310,7 +310,7 @@ h1, h2, h3, p{
             align-self: end;
             
             p, a{
-                @include set-font(16.5px, 11px, 600);
+                @include set-font(16.5rem, 11rem, 600);
             }
             
             p {
@@ -322,7 +322,7 @@ h1, h2, h3, p{
                 border: solid 1px $color-light-gray-1;
                 border-radius: 10px;
 
-                @include set-font(21px, 14px, 500);
+                @include set-font(21rem, 14rem, 500);
                 font-family: $font-stack;
             }
             
@@ -341,7 +341,7 @@ h1, h2, h3, p{
             justify-content: left;
 
             p, a {
-                @include set-font(21px, 14px, 500);
+                @include set-font(21rem, 14rem, 500);
                 margin: 0;
             }
             
@@ -361,7 +361,7 @@ h1, h2, h3, p{
         .submit-button {
             grid-column: 2 / span 1;
             height: 50px;
-            @include set-font(24px, 16px, 500);
+            @include set-font(24rem, 16rem, 500);
         }
         
         .rightarrow {
@@ -373,7 +373,7 @@ h1, h2, h3, p{
     .contact-addresses {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        column-gap: 25px;
+        gap: 25px;
         margin-top: 35px;
         
         .contact-address-group {
@@ -384,7 +384,7 @@ h1, h2, h3, p{
             row-gap: 5px;
             
             p {
-                @include set-font(18px, 12px, 500);
+                @include set-font(18rem, 12rem, 500);
                 color: black;
                 opacity: 0.5;
                 align-self: end;
@@ -392,7 +392,7 @@ h1, h2, h3, p{
             }
             
             .address {
-                @include set-font(30px, 20px, 600);
+                @include set-font(30rem, 20rem, 600);
                 color: black;
                 opacity: 1;
                 align-self: start;
@@ -409,18 +409,18 @@ h1, h2, h3, p{
     position: relative;
     
     h2 {
-        @include set-font(60px, 50px, 500);
-        margin-bottom: 20px;
+        @include set-font(60rem, 50rem, 500);
+        margin-bottom: 20rem;
     }
     
     p {
-        @include set-font(36px, 20px, 400);
+        @include set-font(36rem, 20rem, 400);
         margin: 0 0 30px 0;
     }
 
     .emphasis {
-        @include set-font(30px, 20px, 500);
-        margin-bottom: 10px;
+        @include set-font(30rem, 20rem, 500);
+        margin-bottom: 10rem;
     }
     
 }
@@ -496,7 +496,7 @@ h1, h2, h3, p{
     margin-bottom: 176px;
     
     p {
-        @include set-font(30px, 20px, 400);
+        @include set-font(30rem, 20rem, 400);
         align-self: center;
         justify-self: left;
     }
@@ -570,12 +570,12 @@ h1, h2, h3, p{
     }
     
     h2 {
-        @include set-font(60px, 40px, 500);
+        @include set-font(60rem, 40rem, 500);
         padding-bottom: 20px;
     }
     
     p {
-        @include set-font(36px, 20px, 400);
+        @include set-font(36rem, 20rem, 400);
         opacity: 0.6;
         padding-bottom: 50px;
     }
@@ -611,12 +611,12 @@ h1, h2, h3, p{
     }
     
     p {
-        @include set-font(40px, 24px, 400);
+        @include set-font(40rem, 24rem, 400);
         opacity: 0.6;
     }
     
     h2 {
-        @include set-font(80px, 70px, 500);
+        @include set-font(80rem, 70rem, 500);
     }
     
     .section-image {
@@ -663,13 +663,13 @@ h1, h2, h3, p{
     
     p {
         width: 400px;
-        @include set-font(24px, 16px, 400);
+        @include set-font(24rem, 16rem, 400);
     }
     
     .navbar {
         gap: 57px;
         a {
-            @include set-font(21px, 14px, 500);
+            @include set-font(21rem, 14rem, 500);
             opacity: 0.5;
         }
     }
@@ -696,7 +696,7 @@ h1, h2, h3, p{
         gap: 2.2ch;
         
         a {
-            @include set-font(21px, 14px, 400);
+            @include set-font(21rem, 14rem, 400);
             opacity: 0.5;
         }
     }
@@ -781,6 +781,33 @@ h1, h2, h3, p{
         left: unset;
         width: fit-content;
         margin: 50px auto 0 auto;
+        
+        .contact-form {
+            grid-template-columns: auto;
+            grid-template-rows: repeat(5, auto);
+            
+            label, .button {
+                justify-self: stretch;
+                
+                .input-text {
+                    width: calc(100% - 40px);
+                }
+            }
+            
+            .submit-button {
+                grid-column: unset;
+            }
+        }
+        
+        .contact-addresses {
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+            
+            .contact-address-group {
+                justify-self: center;
+            }
+        }
+        
     }
     
     .vanish-on-small {
@@ -897,9 +924,16 @@ h1, h2, h3, p{
         }
     }
     
+    .box-icon-section {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
 }
 
 //Hdpi
 @media (min-resolution: 200dpi) {
-
+    html {
+        font-size: 1.4px;
+    }
 }
