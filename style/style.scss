@@ -16,6 +16,9 @@ $color-white-translucent: #FFFFFF4B;
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+
+    font-size: 1pxoi;
 }
 
 body {
@@ -751,7 +754,7 @@ h1, h2, h3, p{
             background-image: none;
             @include absolute-center();
             border-radius: 0;
-            width: 100vw;
+            width: 200vw;
         }
         
         p {
@@ -894,4 +897,9 @@ h1, h2, h3, p{
         }
     }
     
+}
+
+//Hdpi
+@media (min-resolution: 200dpi) {
+
 }
