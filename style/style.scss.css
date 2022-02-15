@@ -1,3 +1,6 @@
+:root {
+  font-size: 1px; }
+
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -40,11 +43,12 @@ h1, h2, h3, p {
 
 .navbar ul {
   padding: 0;
-  margin: 0;
+  margin: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 38px;
   list-style-type: none; }
 
@@ -56,21 +60,19 @@ h1, h2, h3, p {
   border-radius: 60px;
   position: relative;
   margin: 0 0 40px 0;
-  color: white;
-  min-height: 800px; }
-  .hero .left-side {
-    margin: 147px 0 0 100px; }
-    .hero .left-side h1 {
-      font-size: 60px;
-      line-height: 70px;
-      font-weight: 500;
-      font-family: "Poppins", sans-serif; }
-    .hero .left-side p {
-      font-size: 24px;
-      line-height: 40px;
-      font-weight: 400;
-      font-family: "Poppins", sans-serif;
-      margin: 30px 0 40px 0; }
+  padding: 147px 0 200px 100px;
+  color: white; }
+  .hero .left-side h1 {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif; }
+  .hero .left-side p {
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    margin: 30px 0 40px 0; }
   .hero .hero-side-picture {
     position: absolute;
     bottom: -28.31px;
@@ -97,6 +99,9 @@ h1, h2, h3, p {
   justify-content: space-between;
   gap: 40px; }
 
+.box-icon-section {
+  align-items: center; }
+
 .box-icon-text-button {
   padding: 40px;
   border: solid 1px #E4E4E4;
@@ -106,7 +111,8 @@ h1, h2, h3, p {
     font-size: 24px;
     line-height: 36px;
     font-weight: 500;
-    font-family: "Poppins", sans-serif; }
+    font-family: "Poppins", sans-serif;
+    margin-right: 80px; }
   .box-icon-text-button p {
     font-size: 18px;
     line-height: 24px;
@@ -120,6 +126,12 @@ h1, h2, h3, p {
     right: 16px;
     width: 80px;
     height: 80px; }
+
+.button-box {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  align-items: stretch; }
 
 .button {
   padding: 13px 30px;
@@ -344,8 +356,6 @@ h1, h2, h3, p {
   .employer-section .section-image {
     top: 92px;
     left: 692px; }
-  .employer-section .button {
-    margin-right: 20px; }
 
 .tickmark-section {
   margin-bottom: 176px; }
@@ -380,8 +390,7 @@ h1, h2, h3, p {
     color: white; }
   .employee-section .button {
     background-color: white;
-    color: black;
-    margin-right: 20px; }
+    color: black; }
   .employee-section .white-button {
     background-color: #FFFFFF4B;
     color: white; }
@@ -436,7 +445,7 @@ h1, h2, h3, p {
   background-color: #5F59CB;
   border: none;
   border-radius: 60px;
-  padding: 134px 0 142px 100px;
+  padding: 134px 134px 142px 100px;
   margin-bottom: 163px; }
   .workforce-section h2, .workforce-section p {
     color: white;
@@ -455,11 +464,9 @@ h1, h2, h3, p {
   .workforce-section .section-image {
     bottom: 0;
     right: 52px; }
-  .workforce-section .button {
-    margin-right: 20px; }
 
 .download-section {
-  padding: 78px 0 78px 100px;
+  padding: 78px 100px 78px 100px;
   margin-bottom: 211px; }
   .download-section .section-background {
     width: 150vw;
@@ -502,7 +509,7 @@ h1, h2, h3, p {
   position: relative;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
-  width: calc(100% + 2 * 100px);
+  width: 100vw;
   right: 100px;
   background-color: #F5F5F5; }
   .footer ul {
@@ -527,3 +534,113 @@ h1, h2, h3, p {
     .footer .social-media a {
       margin: 15px;
       opacity: 0.5; }
+
+@media (max-width: 1530px) {
+  .contact-section {
+    margin-bottom: 166px; }
+  .contact-group {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30px; }
+  .employee-section .button-box {
+    flex-direction: column;
+    align-items: stretch; } }
+
+@media (max-width: 1400px) {
+  body {
+    padding: 35px calc(100px / 2) 0 calc(100px / 2); } }
+
+@media (max-width: 1320px) {
+  .contact-section {
+    padding-right: 78px;
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto; }
+    .contact-section .section-background {
+      background-image: none;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 0;
+      width: 100vw; }
+    .contact-section p {
+      text-align: justify; }
+    .contact-section .left-side {
+      width: auto; }
+  .box-icon-text-button h3 {
+    margin: 0; }
+  .contact-group {
+    position: relative;
+    transform: none;
+    top: unset;
+    right: unset;
+    bottom: unset;
+    left: unset;
+    width: fit-content;
+    margin: 50px auto 0 auto; }
+  .vanish-on-small {
+    display: none; }
+  .employee-section {
+    display: flex;
+    justify-content: center; }
+    .employee-section .right-side {
+      width: fit-content;
+      left: unset; }
+    .employee-section .button-box {
+      flex-direction: row;
+      align-items: center; }
+  .employer-section {
+    padding: 100px 100px 103px 100px;
+    display: flex;
+    justify-content: center; }
+    .employer-section .left-side {
+      width: fit-content; }
+  .workforce-section {
+    display: flex;
+    justify-content: center; }
+    .workforce-section .left-side {
+      width: fit-content; } }
+
+@media (max-width: 1225px) {
+  .navbar ul {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px; }
+  .download-section {
+    display: flex;
+    justify-content: center; }
+    .download-section .left-side {
+      width: fit-content;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+    .download-section h2 {
+      text-align: center; }
+    .download-section p {
+      text-align: justify; }
+  .vanish-on-tiny {
+    display: none; } }
+
+@media (max-width: 1140px) {
+  .vanish-on-little {
+    display: none; }
+  .hero {
+    display: flex;
+    justify-content: center;
+    min-height: fit-content;
+    padding: 147px 100px 100px 100px; }
+    .hero .left-side {
+      width: fit-content; }
+  .footer {
+    padding-top: 20px;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%); }
+    .footer * {
+      justify-self: center; } }
